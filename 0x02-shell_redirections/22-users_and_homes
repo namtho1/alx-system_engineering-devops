@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -o "^[^:]*" /etc/passwd | sort
+while IFS=":" read -r user _ home _; do echo "$user:$home"; done < /etc/passwd
