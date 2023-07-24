@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -lt | grep "^-" | head -n 10 | while read -r line; do echo "$line" | rev | cut -d " " -f1 | rev; done
+ls -t | head -n 10
+
