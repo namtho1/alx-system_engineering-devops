@@ -1,0 +1,2 @@
+echo '#!/bin/bash' > 0x03-shell_variables_expansions/100-decimal_to_hexadecimal
+echo 'printf "%x\n" "$DECIMAL"' >> 0x03-shell_variables_expansions/100-decimal_to_hexadecimal
